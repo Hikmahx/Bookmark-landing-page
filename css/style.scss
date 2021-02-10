@@ -1,0 +1,29 @@
+/* MOBILE FIRST */ 
+
+// variables
+$soft-blue:rgb(83, 104, 223);
+$soft-red:rgb(250, 87, 87);
+$grayish-blue: rgb(145, 148, 161);
+$very-dark-blue: rgb(37, 43, 70);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Be Vietnam', sans-serif;
+  // overflow: hidden;
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
