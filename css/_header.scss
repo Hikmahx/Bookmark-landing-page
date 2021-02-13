@@ -1,0 +1,73 @@
+// MOBILE FIRST
+header{
+  padding: 4rem 3.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a{
+    svg{
+
+    }
+  }
+  nav{
+    .hamburger-menu{
+      position: relative;
+      margin-top: -0.3rem;
+      width: 1.8rem;
+      height: 2.1rem;  
+      background: none;
+      border: none;
+      z-index: 3;
+
+      i{
+        background: $very-dark-blue;
+        height: 0.3rem;
+        display: block;
+        position: relative;
+
+        &::before,  &::after{
+          content: "";
+          position: absolute;
+          display: block;
+          width:100%;
+          height: 0.3rem;
+          background: $very-dark-blue;
+        }
+
+        &::before{
+          margin-top: -0.6rem;
+        }
+
+        &::after{
+          margin-top: 0.6rem;
+        }
+      }
+    }
+
+    .nav-menu{
+      visibility: hidden;
+      opacity: 0;
+      display: none;
+  
+      li{
+        a{
+
+        }
+      }
+    }
+
+    .social{
+      visibility: hidden;
+      opacity: 0;
+      display: none;
+
+  
+      a{
+        i{
+
+        }
+      }
+    }
+  }
+}

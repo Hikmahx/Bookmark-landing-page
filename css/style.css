@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* MOBILE FIRST */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  padding: 4rem 3.2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .hamburger-menu {
+  position: relative;
+  margin-top: -0.3rem;
+  width: 1.8rem;
+  height: 2.1rem;
+  background: none;
+  border: none;
+  z-index: 3;
+}
+
+header nav .hamburger-menu i {
+  background: #252b46;
+  height: 0.3rem;
+  display: block;
+  position: relative;
+}
+
+header nav .hamburger-menu i::before, header nav .hamburger-menu i::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  background: #252b46;
+}
+
+header nav .hamburger-menu i::before {
+  margin-top: -0.6rem;
+}
+
+header nav .hamburger-menu i::after {
+  margin-top: 0.6rem;
+}
+
+header nav .nav-menu {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+header nav .social {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
