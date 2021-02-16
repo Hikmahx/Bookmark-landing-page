@@ -3,13 +3,26 @@ header{
   padding: 4rem 3.2rem 0;
   display: flex;
   justify-content: space-between;
-  height: 110vh;
+  height: 118.9vh;
+  
+&.open{
+  background: #2f354f;
+
+      
+  svg{
+    g g circle, g path{
+      fill: #fff;
+    }
+
+    g g path{
+      fill: #2f354f;
+    }
+  }
+
+}
 
   a{
     height: fit-content;
-    svg{
-
-    }
   }
 
   nav{
@@ -23,7 +36,7 @@ header{
       background: none;
       border: none;
       z-index: 3;
-
+      
       i{
         background: $very-dark-blue;
         height: 0.3rem;
@@ -47,24 +60,50 @@ header{
           margin-top: 0.6rem;
         }
       }
+
+      &.open{
+        top: 0.2rem;
+        right: -0.2rem;
+        
+        i{
+          height: 0;
+
+          &::before{
+            background: #fff;
+            transform: rotate(45deg) 
+            translate(0.3rem, 0.55rem);        
+          }
+
+          &::after{
+            background: #fff;
+            transform: rotate(-45deg) 
+            translate(0.3rem, -0.55rem);        
+          }
+        }
+      }
+
     }
 
     .nav-menu{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       width: 100%;
       // height: 100vh;
       position: absolute;
       left: 0;
       top: 10.5rem;
-      // visibility: hidden;
-      // opacity: 0;
-      // display: none;
-  
+      visibility: hidden;
+      opacity: 0;
+      display: none;
+
+    &.open{
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
       li{
         padding: 1.9rem 0;
-        width: 80%;
+        width: 82%;
         height: 6.6rem;
         position: relative;
 
@@ -72,18 +111,20 @@ header{
           content: '';
           position: absolute;
           height: 0.1rem;
+          opacity: 0.1;
           top: 0;
           left: 0;
           right: 0;
-          background-color: black;
+          background-color: #fff;
 
         }
 
         a{
           text-transform: uppercase;
           font-size: 2.1rem;
+          font-weight: 400;
           letter-spacing: 1.5px;
-          color: black;
+          color: #fff;
           display: flex;
           align-items: center;
           width: fit-content;
@@ -93,7 +134,7 @@ header{
 
         &:last-child{
           a{
-            border: 0.2rem solid black;
+            border: 0.2rem solid #fff;
             border-radius: 0.5rem;
             margin-top: 0.57rem;
             padding: 0.8rem;
@@ -125,7 +166,7 @@ header{
         padding: 2rem;
         i{
           font-size: 2.6rem;
-          color: black;
+          color: #fff;
         }
       }
     }

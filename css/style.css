@@ -22,7 +22,19 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 110vh;
+  height: 118.9vh;
+}
+
+header.open {
+  background: #2f354f;
+}
+
+header.open svg g g circle, header.open svg g path {
+  fill: #fff;
+}
+
+header.open svg g g path {
+  fill: #2f354f;
 }
 
 header a {
@@ -71,7 +83,40 @@ header nav .hamburger-menu i::after {
   margin-top: 0.6rem;
 }
 
+header nav .hamburger-menu.open {
+  top: 0.2rem;
+  right: -0.2rem;
+}
+
+header nav .hamburger-menu.open i {
+  height: 0;
+}
+
+header nav .hamburger-menu.open i::before {
+  background: #fff;
+  -webkit-transform: rotate(45deg) translate(0.3rem, 0.55rem);
+          transform: rotate(45deg) translate(0.3rem, 0.55rem);
+}
+
+header nav .hamburger-menu.open i::after {
+  background: #fff;
+  -webkit-transform: rotate(-45deg) translate(0.3rem, -0.55rem);
+          transform: rotate(-45deg) translate(0.3rem, -0.55rem);
+}
+
 header nav .nav-menu {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 10.5rem;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+header nav .nav-menu.open {
+  visibility: visible;
+  opacity: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,15 +127,11 @@ header nav .nav-menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 10.5rem;
 }
 
 header nav .nav-menu li {
   padding: 1.9rem 0;
-  width: 80%;
+  width: 82%;
   height: 6.6rem;
   position: relative;
 }
@@ -99,17 +140,19 @@ header nav .nav-menu li::before {
   content: '';
   position: absolute;
   height: 0.1rem;
+  opacity: 0.1;
   top: 0;
   left: 0;
   right: 0;
-  background-color: black;
+  background-color: #fff;
 }
 
 header nav .nav-menu li a {
   text-transform: uppercase;
   font-size: 2.1rem;
+  font-weight: 400;
   letter-spacing: 1.5px;
-  color: black;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,7 +167,7 @@ header nav .nav-menu li a {
 }
 
 header nav .nav-menu li:last-child a {
-  border: 0.2rem solid black;
+  border: 0.2rem solid #fff;
   border-radius: 0.5rem;
   margin-top: 0.57rem;
   padding: 0.8rem;
@@ -162,6 +205,6 @@ header nav .social a {
 
 header nav .social a i {
   font-size: 2.6rem;
-  color: black;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
