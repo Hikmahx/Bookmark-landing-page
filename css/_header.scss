@@ -3,14 +3,18 @@ header{
   padding: 4rem 3.2rem 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  height: 110vh;
 
   a{
+    height: fit-content;
     svg{
 
     }
   }
+
   nav{
+    height: fit-content;
+
     .hamburger-menu{
       position: relative;
       margin-top: -0.3rem;
@@ -46,26 +50,82 @@ header{
     }
 
     .nav-menu{
-      visibility: hidden;
-      opacity: 0;
-      display: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      // height: 100vh;
+      position: absolute;
+      left: 0;
+      top: 10.5rem;
+      // visibility: hidden;
+      // opacity: 0;
+      // display: none;
   
       li{
-        a{
+        padding: 1.9rem 0;
+        width: 80%;
+        height: 6.6rem;
+        position: relative;
+
+        &::before{
+          content: '';
+          position: absolute;
+          height: 0.1rem;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-color: black;
 
         }
+
+        a{
+          text-transform: uppercase;
+          font-size: 2.1rem;
+          letter-spacing: 1.5px;
+          color: black;
+          display: flex;
+          align-items: center;
+          width: fit-content;
+          margin: 0.1rem auto 0;
+          padding-right: 1.2rem;
+        }
+
+        &:last-child{
+          a{
+            border: 0.2rem solid black;
+            border-radius: 0.5rem;
+            margin-top: 0.57rem;
+            padding: 0.8rem;
+            display: flex;
+            justify-content: center;
+            height: 4.8rem;
+            font-weight: 500;
+            width: 100%;
+          }
+        }
+
       }
     }
 
     .social{
-      visibility: hidden;
-      opacity: 0;
-      display: none;
-
+      // visibility: hidden;
+      // opacity: 0;
+      // display: none;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 12rem;
+      bottom: -10.55rem;
+      left: 0;
+      right: 0;
   
       a{
+        padding: 2rem;
         i{
-
+          font-size: 2.6rem;
+          color: black;
         }
       }
     }
