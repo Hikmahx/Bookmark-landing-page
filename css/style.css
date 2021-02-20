@@ -23,6 +23,8 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 118.9vh;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header.open {
