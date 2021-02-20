@@ -185,7 +185,19 @@ header nav .nav-menu li:last-child a {
 }
 
 header nav .social {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
   position: absolute;
+  height: 12rem;
+  bottom: -10.55rem;
+  left: 0;
+  right: 0;
+}
+
+header nav .social.open {
+  visibility: visible;
+  opacity: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,10 +207,6 @@ header nav .social {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 12rem;
-  bottom: -10.55rem;
-  left: 0;
-  right: 0;
 }
 
 header nav .social a {
