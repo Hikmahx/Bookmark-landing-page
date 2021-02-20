@@ -22,13 +22,16 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 118.9vh;
+  height: 7rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 header.open {
-  background: #2f354f;
+  background: rgba(47, 53, 79, 0.9);
+  position: fixed;
+  height: 118.9vh;
+  width: 100%;
 }
 
 header.open svg g g circle, header.open svg g path {
