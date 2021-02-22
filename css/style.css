@@ -22,16 +22,21 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 7rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 header.open {
-  background: rgba(47, 53, 79, 0.9);
+  background: #252b46;
+  opacity: 0.97;
   position: fixed;
   height: 118.9vh;
   width: 100%;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  overflow: scroll;
+  z-index: 1000;
 }
 
 header.open svg g g circle, header.open svg g path {
@@ -56,7 +61,7 @@ header nav {
 
 header nav .hamburger-menu {
   position: relative;
-  margin-top: -0.3rem;
+  margin-top: 0.2rem;
   width: 1.8rem;
   height: 2.1rem;
   background: none;
@@ -192,8 +197,8 @@ header nav .social {
   opacity: 0;
   display: none;
   position: absolute;
-  height: 12rem;
-  bottom: -10.55rem;
+  height: 41rem;
+  top: 38rem;
   left: 0;
   right: 0;
 }
@@ -219,5 +224,96 @@ header nav .social a {
 header nav .social a i {
   font-size: 2.6rem;
   color: #fff;
+}
+
+.hero {
+  height: 300vh;
+  position: absolute;
+  top: 12.8rem;
+  z-index: 1;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 6.9rem;
+  right: 0rem;
+  height: 20.2rem;
+  width: 30.5rem;
+  border-radius: 12rem 0 0 12rem;
+  background: #5368df;
+}
+
+.hero .hero-image {
+  padding: 1.15rem;
+  margin-top: 0.1rem;
+  position: relative;
+}
+
+.hero .hero-image img {
+  width: 100%;
+}
+
+.hero .hero-text {
+  text-align: center;
+  position: relative;
+  padding: 4.3rem 4rem 0;
+  max-width: 50rem;
+}
+
+.hero .hero-text h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 4rem;
+  color: #252b46;
+}
+
+.hero .hero-text p {
+  font-size: 1.5rem;
+  margin-top: 1.7rem;
+  line-height: 2.5rem;
+  color: #9194a1;
+}
+
+.hero .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 3.1rem;
+}
+
+.hero .btn-wrapper button {
+  padding-top: 0.06rem;
+  height: 4.8rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+}
+
+.hero .btn-wrapper .blue {
+  background: #5368df;
+  color: #fff;
+}
+
+.hero .btn-wrapper .gray {
+  margin-left: 1.3rem;
+  color: #252b46;
+  background: #f7f7f7;
 }
 /*# sourceMappingURL=style.css.map */
