@@ -3,14 +3,22 @@ header{
   padding: 4rem 3.2rem 0;
   display: flex;
   justify-content: space-between;
-  height: 7rem;
+  // height: 7rem;
   transition: all 0.3s ease-in-out;
   
 &.open{
-  background: rgba(47, 53, 79, 0.9);
+  // background: rgba(47, 53, 79, 0.9);
+  background: $very-dark-blue;
+  opacity: 0.97;
   position: fixed;
   height: 118.9vh;
+  // height: 66.7rem;
   width: 100%;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  overflow: scroll;
+  z-index: 1000;
       
   svg{
     g g circle, g path{
@@ -33,7 +41,7 @@ header{
 
     .hamburger-menu{
       position: relative;
-      margin-top: -0.3rem;
+      margin-top: 0.2rem;
       width: 1.8rem;
       height: 2.1rem;  
       background: none;
@@ -156,8 +164,9 @@ header{
       opacity: 0;
       display: none;
       position: absolute;
-      height: 12rem;
-      bottom: -10.55rem;
+      height: 41rem;
+      // bottom: -10.55rem;
+      top: 38rem;
       left: 0;
       right: 0;
 
