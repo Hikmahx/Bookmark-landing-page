@@ -28,9 +28,9 @@ header {
 
 header.open {
   background: #252b46;
-  opacity: 0.97;
+  opacity: 0.95;
   position: fixed;
-  height: 118.9vh;
+  height: 66.7rem;
   width: 100%;
   top: 0rem;
   left: 0rem;
@@ -94,7 +94,7 @@ header nav .hamburger-menu i::after {
 }
 
 header nav .hamburger-menu.open {
-  top: 0.2rem;
+  top: -0.2rem;
   right: -0.2rem;
 }
 
@@ -197,8 +197,8 @@ header nav .social {
   opacity: 0;
   display: none;
   position: absolute;
-  height: 41rem;
-  top: 38rem;
+  height: 34.5rem;
+  top: 42rem;
   left: 0;
   right: 0;
 }

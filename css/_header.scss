@@ -9,10 +9,10 @@ header{
 &.open{
   // background: rgba(47, 53, 79, 0.9);
   background: $very-dark-blue;
-  opacity: 0.97;
+  opacity: 0.95;
   position: fixed;
-  height: 118.9vh;
-  // height: 66.7rem;
+  // height: 118.9vh;
+  height: 66.7rem;
   width: 100%;
   top: 0rem;
   left: 0rem;
@@ -73,7 +73,7 @@ header{
       }
 
       &.open{
-        top: 0.2rem;
+        top: -0.2rem;
         right: -0.2rem;
         
         i{
@@ -164,9 +164,9 @@ header{
       opacity: 0;
       display: none;
       position: absolute;
-      height: 41rem;
+      height: 34.5rem;
       // bottom: -10.55rem;
-      top: 38rem;
+      top: 42rem;
       left: 0;
       right: 0;
 
