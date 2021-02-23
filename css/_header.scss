@@ -5,15 +5,13 @@ header{
   justify-content: space-between;
   // height: 7rem;
   transition: all 0.3s ease-in-out;
+  height: 66.7rem;
+  width: 100%;
   
 &.open{
-  // background: rgba(47, 53, 79, 0.9);
   background: $very-dark-blue;
   opacity: 0.95;
   position: fixed;
-  // height: 118.9vh;
-  height: 66.7rem;
-  width: 100%;
   top: 0rem;
   left: 0rem;
   right: 0rem;

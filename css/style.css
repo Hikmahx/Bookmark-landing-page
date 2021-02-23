@@ -24,14 +24,14 @@ header {
           justify-content: space-between;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  height: 66.7rem;
+  width: 100%;
 }
 
 header.open {
   background: #252b46;
   opacity: 0.95;
   position: fixed;
-  height: 66.7rem;
-  width: 100%;
   top: 0rem;
   left: 0rem;
   right: 0rem;
@@ -227,7 +227,6 @@ header nav .social a i {
 }
 
 .hero {
-  height: 300vh;
   position: absolute;
   top: 12.8rem;
   z-index: 1;
