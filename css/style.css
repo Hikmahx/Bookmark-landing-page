@@ -318,4 +318,135 @@ header nav .social a i {
   color: #252b46;
   background: #f7f7f7;
 }
+
+.tabs {
+  position: relative;
+  top: 20rem;
+  text-align: center;
+}
+
+.tabs h2 {
+  font-size: 2.34rem;
+  color: #252b46;
+}
+
+.tabs p {
+  font-size: 1.5rem;
+  margin: 1.3rem 0 3.9rem;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  color: #9194a1;
+}
+
+.tabs .tab-header {
+  margin: 2rem 0 6rem;
+  position: relative;
+}
+
+.tabs .tab-header::before {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  left: 0;
+  height: 0.1rem;
+  opacity: 0.4;
+  margin: auto;
+  width: 82%;
+  background: #9194a1;
+}
+
+.tabs .tab-header .tablink {
+  font-size: 1.7rem;
+  color: #66676c;
+  padding: 1.9rem 0 1.94rem;
+  margin: auto;
+  width: 82%;
+  position: relative;
+}
+
+.tabs .tab-header .tablink::before {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  opacity: 0.4;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9194a1;
+}
+
+.tabs .tab-header .tablink.active {
+  color: #252b46;
+}
+
+.tabs .tab-header .tablink.active:after {
+  content: '';
+  width: 47%;
+  height: 0.4rem;
+  position: absolute;
+  background: #fa5757;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tabs .tab-body .tab-content {
+  padding-bottom: 10.5rem;
+  position: absolute;
+  height: 57.8rem;
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: opacity 500ms ease-in-out 0ms,  -webkit-transform 500ms ease-in 0ms;
+  transition: opacity 500ms ease-in-out 0ms,  -webkit-transform 500ms ease-in 0ms;
+  transition: opacity 500ms ease-in-out 0ms,  transform 500ms ease-in 0ms;
+  transition: opacity 500ms ease-in-out 0ms,  transform 500ms ease-in 0ms,  -webkit-transform 500ms ease-in 0ms;
+}
+
+.tabs .tab-body .tab-content .tab-img {
+  padding: 1.15rem;
+  position: relative;
+}
+
+.tabs .tab-body .tab-content .tab-img::before {
+  content: '';
+  position: absolute;
+  top: 4.7rem;
+  left: 0rem;
+  height: 20.2rem;
+  width: 30.8rem;
+  border-radius: 0 12rem 12rem 0;
+  background: #5368df;
+}
+
+.tabs .tab-body .tab-content .tab-img img {
+  width: 88.5%;
+  height: 20.1rem;
+  position: relative;
+}
+
+.tabs .tab-body .tab-content h3 {
+  padding-top: 6.6rem;
+  font-size: 2.3rem;
+  color: #252b46;
+  letter-spacing: 0.4px;
+}
+
+.tabs .tab-body .tab-content p {
+  color: #9194a1;
+  font-size: 1.5rem;
+  padding: 0 2.9rem;
+}
+
+.tabs .tab-body .tab-content button {
+  display: none;
+}
+
+.tabs .tab-body .tab-content.active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
 /*# sourceMappingURL=style.css.map */

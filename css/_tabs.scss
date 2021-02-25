@@ -1,0 +1,134 @@
+.tabs{
+  position: relative;
+  top: 20rem;
+  text-align: center;
+
+  h2{
+    font-size: 2.34rem;
+    color: $very-dark-blue;
+  }
+
+  p{
+    font-size: 1.5rem;
+    margin: 1.3rem 0 3.9rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
+    color: $grayish-blue;
+  }
+
+  .tab-header{
+    margin: 2rem 0 6rem;
+    position: relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      top:0rem;
+      right: 0;
+      left: 0;
+      height: 0.1rem;
+      opacity: 0.4;
+      margin: auto;
+      width: 82%;
+      // width: 22rem;
+      background: $grayish-blue;
+    }
+
+    .tablink{
+      font-size: 1.7rem;
+      color: #66676c;
+      // padding: 1.92rem 0;
+      padding: 1.9rem 0 1.94rem;
+      margin: auto;
+      width: 82%;
+      // height: 6.6rem;
+      position: relative;
+
+      &::before{
+        content: '';
+        position: absolute;
+        height: 0.1rem;
+        opacity: 0.4;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $grayish-blue;
+      }
+
+      &.active{
+        color: $very-dark-blue;
+
+        &:after{
+          content: '';
+          width: 47%;
+          height: 0.4rem;
+          position: absolute;
+          background: $soft-red;
+          margin: auto; 
+          bottom: 0;
+          left: 0;
+          right: 0;   
+        }
+      }
+    }
+  }
+
+  .tab-body{
+
+    .tab-content{
+      padding-bottom: 10.5rem;
+      position: absolute;
+      height: 57.8rem;
+      // left: -200%;
+      opacity: 0;
+      transform: scale(0.9);
+      transition: opacity 500ms ease-in-out 0ms, 
+                  transform 500ms ease-in 0ms;
+
+
+      .tab-img{
+        padding: 1.15rem;
+        position: relative;
+
+        &::before{
+          content: '';
+          position: absolute;
+          top: 4.7rem;
+          left: 0rem;
+          height: 20.2rem;
+          width: 30.8rem;
+          border-radius: 0 12rem 12rem 0;
+          background: #5368df;
+        }
+
+        img{
+          width: 88.5%;
+          height: 20.1rem;
+          position: relative;
+        }
+      }
+
+      h3{
+        padding-top: 6.6rem;
+        font-size: 2.3rem;
+        color: $very-dark-blue;
+        letter-spacing: 0.4px;
+      }
+
+      p{
+        color: $grayish-blue;
+        font-size: 1.5rem;
+        padding: 0 2.9rem;
+      }
+
+      button{
+        display: none;
+      }
+
+      &.active{
+        opacity: 1;
+        transform: scale(1);  
+      }
+    }
+  }
+}
