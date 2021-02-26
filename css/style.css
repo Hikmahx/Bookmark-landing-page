@@ -398,13 +398,10 @@ header nav .social a i {
   padding-bottom: 10.5rem;
   position: absolute;
   height: 57.8rem;
+  left: -200%;
   opacity: 0;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-transition: opacity 500ms ease-in-out 0ms,  -webkit-transform 500ms ease-in 0ms;
-  transition: opacity 500ms ease-in-out 0ms,  -webkit-transform 500ms ease-in 0ms;
-  transition: opacity 500ms ease-in-out 0ms,  transform 500ms ease-in 0ms;
-  transition: opacity 500ms ease-in-out 0ms,  transform 500ms ease-in 0ms,  -webkit-transform 500ms ease-in 0ms;
+  -webkit-transition: opacity 0.6s ease-in-out,  left 0.4s ease-in-out;
+  transition: opacity 0.6s ease-in-out,  left 0.4s ease-in-out;
 }
 
 .tabs .tab-body .tab-content .tab-img {
@@ -450,7 +447,6 @@ header nav .social a i {
 
 .tabs .tab-body .tab-content.active {
   opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  left: 0rem;
 }
 /*# sourceMappingURL=style.css.map */
