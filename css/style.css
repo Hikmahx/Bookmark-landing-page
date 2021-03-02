@@ -325,10 +325,12 @@ header nav .social a i {
   text-align: center;
   max-width: 56rem;
   margin: auto;
+  height: 90rem;
 }
 
 .tabs h2 {
   font-size: 2.34rem;
+  font-weight: 500;
   color: #252b46;
 }
 
@@ -431,6 +433,7 @@ header nav .social a i {
 .tabs .tab-body .tab-content h3 {
   padding-top: 6.6rem;
   font-size: 2.3rem;
+  font-weight: 500;
   color: #252b46;
   letter-spacing: 0.4px;
 }
@@ -448,5 +451,84 @@ header nav .social a i {
 .tabs .tab-body .tab-content.active {
   opacity: 1;
   left: 0rem;
+}
+
+.downloads {
+  position: relative;
+  text-align: center;
+  max-width: 40rem;
+  margin: auto;
+  margin-top: 20rem;
+}
+
+.downloads h2 {
+  padding: 6.6rem 0 1.3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #252b46;
+}
+
+.downloads p {
+  color: #9194a1;
+  font-size: 1.5rem;
+  padding: 0 4rem;
+  line-height: 2.5rem;
+}
+
+.downloads .cards-option {
+  margin-top: -1rem;
+  padding: 0 4.8rem;
+}
+
+.downloads .cards-option .option {
+  height: 37rem;
+  padding: 1.5rem 2.4rem 2rem;
+  margin: 4rem 0;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 1rem #eaecf9;
+          box-shadow: 0 1rem 1rem #eaecf9;
+}
+
+.downloads .cards-option .option .extension-img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 3.3rem auto 2.9rem auto;
+}
+
+.downloads .cards-option .option h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #252b46;
+  margin-bottom: 0.8rem;
+}
+
+.downloads .cards-option .option p {
+  color: #9194a1;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.downloads .cards-option .option p::before {
+  content: url(../images/bg-dots.svg);
+  position: absolute;
+  top: 4.5rem;
+  left: -2.4rem;
+  right: 0;
+}
+
+.downloads .cards-option .option button {
+  background: #5368df;
+  color: #fff;
+  margin-top: 4.2rem;
+  padding-top: 0.06rem;
+  height: 4.8rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: 0.14px;
 }
 /*# sourceMappingURL=style.css.map */
