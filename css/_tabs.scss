@@ -4,9 +4,11 @@
   text-align: center;
   max-width: 56rem;
   margin: auto;
+  height: 90rem;
 
   h2{
     font-size: 2.34rem;
+    font-weight: 500;
     color: $very-dark-blue;
   }
 
@@ -113,6 +115,7 @@
       h3{
         padding-top: 6.6rem;
         font-size: 2.3rem;
+        font-weight: 500;
         color: $very-dark-blue;
         letter-spacing: 0.4px;
       }
