@@ -6,7 +6,8 @@
         "_header.scss",
         "_banner.scss",
         "_tabs.scss",
-        "_downloads.scss"
+        "_downloads.scss",
+        "_faq.scss"
     ],
     "names": [],
     "file": "style.css"
