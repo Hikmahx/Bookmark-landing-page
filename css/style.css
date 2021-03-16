@@ -530,4 +530,100 @@ header nav .social a i {
   font-weight: 500;
   letter-spacing: 0.14px;
 }
+
+.faqs {
+  margin-top: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.faqs h2 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #252b46;
+}
+
+.faqs p {
+  font-size: 1.5rem;
+  margin: 1.3rem 0 3.9rem;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+  color: #9194a1;
+}
+
+.faqs .accordion {
+  margin-top: 2rem;
+}
+
+.faqs .accordion .menu {
+  padding: 1rem;
+  text-align: left;
+}
+
+.faqs .accordion .menu .item {
+  font-size: 1.5rem;
+  height: 6.5rem;
+  -webkit-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+  overflow: hidden;
+}
+
+.faqs .accordion .menu .item .question {
+  color: #252b46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.35rem 0;
+  border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.faqs .accordion .menu .item .question svg {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.faqs .accordion .menu .item .answer {
+  color: #9194a1;
+  padding-top: 2rem;
+  height: 0;
+}
+
+.faqs .accordion .menu .item:target {
+  height: 20rem;
+}
+
+.faqs .accordion .menu .item:target .question {
+  border-bottom: none;
+}
+
+.faqs .accordion .menu .item:target .question svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.faqs .accordion .menu .item:target .question svg path {
+  stroke: red;
+}
+
+.faqs button {
+  color: #fff;
+  background: #5368df;
+  margin-top: 4.2rem;
+  padding-top: 0.06rem;
+  height: 4.8rem;
+  width: 11rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+}
 /*# sourceMappingURL=style.css.map */

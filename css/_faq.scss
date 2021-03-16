@@ -1,0 +1,92 @@
+.faqs{
+  margin-top: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+  height: 100vh;
+
+  h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    // letter-spacing: 0.4px;
+    color: $very-dark-blue;
+  }
+
+  p{
+    font-size: 1.5rem;
+    margin: 1.3rem 0 3.9rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    color: $grayish-blue;
+  }
+
+  .accordion{
+    margin-top: 2rem;
+    .menu{
+      padding: 1rem;
+      text-align: left;
+
+      .item{
+        font-size: 1.5rem;
+        height: 6.5rem;
+        transition: all 0.6s ease-out;
+        overflow: hidden;
+
+        .question{
+          color: $very-dark-blue;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 2.35rem 0;
+          border-bottom: 0.1rem solid #dfdfdf;
+
+          svg{
+            transition: all 0.2s ease;
+          }
+        }
+
+        .answer{
+          color: $grayish-blue;
+          padding-top: 2rem;
+          // display: none;
+          height: 0;
+        }
+
+        &:target{
+          height: 20rem;
+          // overflow: visible;
+          
+          .question{
+            border-bottom: none;
+
+            svg{
+              transform: rotate(180deg);
+
+              path{
+                stroke: red;
+              }
+            }
+          }
+          .answer{
+            // height: fit-content;
+            // display: block;
+          }
+        }
+      }
+    }
+  }
+  
+  button{
+    color: #fff;
+    background: $soft-blue;
+    margin-top: 4.2rem;
+    padding-top: 0.06rem;
+    height: 4.8rem;
+    width: 11rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+  }
+}
