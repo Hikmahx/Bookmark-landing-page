@@ -539,17 +539,20 @@ header nav .social a i {
 }
 
 .faqs h2 {
-  font-size: 2.3rem;
+  font-size: 2.35rem;
   font-weight: 500;
   color: #252b46;
+  padding: 0 3rem;
+  line-height: 3rem;
 }
 
 .faqs p {
   font-size: 1.5rem;
   margin: 1.3rem 0 3.9rem;
   line-height: 2.5rem;
-  padding: 0 1rem;
+  padding: 0.4rem 1rem 0;
   color: #9194a1;
+  letter-spacing: -0.1px;
 }
 
 .faqs .accordion {
@@ -557,7 +560,7 @@ header nav .social a i {
 }
 
 .faqs .accordion .menu {
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   text-align: left;
 }
 
@@ -580,7 +583,7 @@ header nav .social a i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2.35rem 0;
+  padding: 2rem 0;
   border-bottom: 0.1rem solid #dfdfdf;
 }
 
@@ -600,7 +603,7 @@ header nav .social a i {
 }
 
 .faqs .accordion .menu .item:target .question {
-  border-bottom: none;
+  border-bottom: transparent;
 }
 
 .faqs .accordion .menu .item:target .question svg {
@@ -610,6 +613,10 @@ header nav .social a i {
 
 .faqs .accordion .menu .item:target .question svg path {
   stroke: red;
+}
+
+.faqs .accordion .menu .item:target:nth-child(2):target {
+  height: 25rem;
 }
 
 .faqs button {

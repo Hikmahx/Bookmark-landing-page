@@ -5,24 +5,28 @@
   height: 100vh;
 
   h2{
-    font-size: 2.3rem;
+    font-size: 2.35rem;
     font-weight: 500;
     // letter-spacing: 0.4px;
     color: $very-dark-blue;
+    padding: 0 3rem;
+    line-height: 3rem;
   }
 
   p{
     font-size: 1.5rem;
     margin: 1.3rem 0 3.9rem;
     line-height: 2.5rem;
-    padding: 0 1rem;
+    padding: 0.4rem 1rem 0;
     color: $grayish-blue;
+    letter-spacing: -0.1px;
   }
 
   .accordion{
     margin-top: 2rem;
+
     .menu{
-      padding: 1rem;
+      padding: 1rem 1.25rem;
       text-align: left;
 
       .item{
@@ -36,7 +40,7 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 2.35rem 0;
+          padding: 2rem 0;
           border-bottom: 0.1rem solid #dfdfdf;
 
           svg{
@@ -56,7 +60,7 @@
           // overflow: visible;
           
           .question{
-            border-bottom: none;
+            border-bottom: transparent;
 
             svg{
               transform: rotate(180deg);
@@ -64,6 +68,12 @@
               path{
                 stroke: red;
               }
+            }
+          }
+
+          &:nth-child(2){
+            &:target{
+              height: 25rem;
             }
           }
           .answer{
