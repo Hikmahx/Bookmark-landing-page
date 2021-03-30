@@ -26,7 +26,7 @@
     margin-top: 2rem;
 
     .menu{
-      padding: 1rem 1.25rem;
+      padding: 1rem;
       text-align: left;
 
       .item{
@@ -50,13 +50,21 @@
 
         .answer{
           color: $grayish-blue;
-          padding-top: 2rem;
+          padding-top: 1.4rem;
+          line-height: 3rem;
           // display: none;
-          height: 0;
+          // height: 0;
         }
 
         &:target{
-          height: 20rem;
+          
+          height: 28rem;
+          border-bottom: 0.1rem solid #dfdfdf;
+
+          &:last-child{
+            border: none;
+          }
+
           // overflow: visible;
           
           .question{
@@ -73,7 +81,7 @@
 
           &:nth-child(2){
             &:target{
-              height: 25rem;
+              height: 37rem;
             }
           }
           .answer{

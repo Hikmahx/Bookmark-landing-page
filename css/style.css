@@ -560,7 +560,7 @@ header nav .social a i {
 }
 
 .faqs .accordion .menu {
-  padding: 1rem 1.25rem;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -594,12 +594,17 @@ header nav .social a i {
 
 .faqs .accordion .menu .item .answer {
   color: #9194a1;
-  padding-top: 2rem;
-  height: 0;
+  padding-top: 1.4rem;
+  line-height: 3rem;
 }
 
 .faqs .accordion .menu .item:target {
-  height: 20rem;
+  height: 28rem;
+  border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.faqs .accordion .menu .item:target:last-child {
+  border: none;
 }
 
 .faqs .accordion .menu .item:target .question {
@@ -616,7 +621,7 @@ header nav .social a i {
 }
 
 .faqs .accordion .menu .item:target:nth-child(2):target {
-  height: 25rem;
+  height: 37rem;
 }
 
 .faqs button {
