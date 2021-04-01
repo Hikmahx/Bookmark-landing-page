@@ -535,7 +535,6 @@ header nav .social a i {
   margin-top: 2rem;
   padding: 0 2rem;
   text-align: center;
-  height: 100vh;
 }
 
 .faqs h2 {
@@ -637,5 +636,147 @@ header nav .social a i {
   font-size: 1.45rem;
   font-weight: 500;
   letter-spacing: 0.14px;
+}
+
+.footer {
+  background: #5368df;
+  margin-top: 8rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 7rem;
+  height: 100vh;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.footer p {
+  font-size: 2.34rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  padding: 1rem 4rem 3.5rem;
+}
+
+.footer form {
+  padding: 0 4rem;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.footer form .input {
+  height: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.footer form .input input {
+  height: 4.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  padding-left: 2rem;
+}
+
+.footer form .input input::-webkit-input-placeholder {
+  color: #d5d5d7;
+}
+
+.footer form .input input:-ms-input-placeholder {
+  color: #d5d5d7;
+}
+
+.footer form .input input::-ms-input-placeholder {
+  color: #d5d5d7;
+}
+
+.footer form .input input::placeholder {
+  color: #d5d5d7;
+}
+
+.footer form .input input.err {
+  height: 4.4rem;
+}
+
+.footer form .input label {
+  display: none;
+}
+
+.footer form .input.err {
+  position: relative;
+  height: 7rem;
+  background: #fa5757;
+  margin-bottom: 1.8rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.footer form .input .error {
+  display: none;
+  position: absolute;
+  bottom: 0.8rem;
+  left: 1rem;
+  font-style: italic;
+}
+
+.footer form button {
+  height: 4.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  background: #fa5757;
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+}
+
+.footer .lower {
+  background: #252b46;
+  padding-top: 4rem;
+}
+
+.footer .lower .logo svg {
+  margin-bottom: 3rem;
+}
+
+.footer .lower .logo svg g path {
+  fill: #fff;
+}
+
+.footer .lower .logo svg g g path {
+  fill: #fff;
+}
+
+.footer .lower ul {
+  margin-top: 0.7rem;
+}
+
+.footer .lower ul li {
+  margin-bottom: 3.1rem;
+}
+
+.footer .lower ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.footer .lower .social {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2rem 0 5rem;
+}
+
+.footer .lower .social a {
+  padding: 0 2rem;
+}
+
+.footer .lower .social a i {
+  color: #fff;
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=style.css.map */
