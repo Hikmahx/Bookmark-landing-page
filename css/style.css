@@ -226,6 +226,67 @@ header nav .social a i {
   color: #fff;
 }
 
+@media (min-width: 715px) {
+  header {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header nav {
+    width: 60%;
+    height: 5rem;
+    position: relative;
+  }
+  header nav .hamburger-menu {
+    display: none;
+  }
+  header nav .nav-menu {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    top: -1rem;
+    right: 0;
+  }
+  header nav .nav-menu li {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header nav .nav-menu li::before {
+    display: none;
+  }
+  header nav .nav-menu li a {
+    padding: 0;
+    color: #252b46;
+    font-size: 1.2rem;
+  }
+  header nav .nav-menu li:last-child a {
+    height: 3.6rem;
+    width: 75%;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    background: #fa5757;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    top: -1.5rem;
+  }
+  header nav .social {
+    display: none;
+  }
+}
+
 .hero {
   position: absolute;
   top: 12.8rem;

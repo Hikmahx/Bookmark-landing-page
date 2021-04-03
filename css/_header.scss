@@ -186,3 +186,67 @@ header{
     }
   }
 }
+
+@media (min-width: 715px){
+  header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    // a{
+
+    // }
+
+    nav{
+      width: 60%;
+      height: 5rem;
+      position: relative;
+
+      .hamburger-menu{
+        display: none;
+      }
+
+      .nav-menu{
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        top: -1rem;
+        right: 0;
+
+        li{
+          height: fit-content;
+
+          &::before{
+            display: none;
+          }
+          a{
+            padding: 0;
+            color: $very-dark-blue;
+            font-size: 1.2rem;
+          }
+
+          &:last-child{
+            a{
+              height: 3.6rem;
+              width: 75%;
+              border: none;
+              border-radius: 0.5rem;
+              margin-bottom: 2rem;
+              background: $soft-red;
+              font-family: 'Rubik', sans-serif;
+              font-weight: 500;
+              color: #fff;  
+              position: relative;
+              top: -1.5rem;       
+            }
+          }
+        }
+      }
+      .social{
+        display: none;
+      }
+    }
+  }
+}
