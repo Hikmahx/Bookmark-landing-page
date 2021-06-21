@@ -81,11 +81,14 @@
 @media (min-width: 630px){
   .hero{
     right: 0;
+    width: 100%;
 
     .hero-image{
-
+      @include flexCenter(row);
+      
       img{
         width: 75%;
+        max-width: 41rem;
         position: relative;
         left: 10rem;
       }
