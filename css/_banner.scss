@@ -77,3 +77,22 @@
     }
   }
 }
+
+@media (min-width: 630px){
+  .hero{
+    right: 0;
+
+    .hero-image{
+
+      img{
+        width: 75%;
+        position: relative;
+        left: 10rem;
+      }
+    }
+
+    .hero-text{
+      padding-top: 2rem;
+    }
+  }
+}

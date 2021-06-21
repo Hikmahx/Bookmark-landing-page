@@ -287,6 +287,17 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1000px) {
+  header {
+    height: 8rem;
+    width: 90%;
+    margin: auto;
+  }
+  header nav .nav-menu {
+    width: 75%;
+  }
+}
+
 .hero {
   position: absolute;
   top: 12.8rem;
@@ -378,6 +389,20 @@ header nav .social a i {
   margin-left: 1.3rem;
   color: #252b46;
   background: #f7f7f7;
+}
+
+@media (min-width: 630px) {
+  .hero {
+    right: 0;
+  }
+  .hero .hero-image img {
+    width: 75%;
+    position: relative;
+    left: 10rem;
+  }
+  .hero .hero-text {
+    padding-top: 2rem;
+  }
 }
 
 .tabs {
