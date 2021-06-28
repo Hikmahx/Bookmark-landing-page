@@ -2,7 +2,6 @@
   position: relative;
   top: 20rem;
   text-align: center;
-  max-width: 56rem;
   margin: auto;
   height: 90rem;
 
@@ -14,10 +13,11 @@
 
   p{
     font-size: 1.5rem;
-    margin: 1.3rem 0 3.9rem;
+    margin: 1.3rem auto 3.9rem;
     line-height: 2.5rem;
     padding: 0 3rem;
     color: $grayish-blue;
+    max-width: 56rem;
   }
 
   .tab-header{
@@ -133,6 +133,44 @@
       &.active{
         opacity: 1;
         left: 0rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 630px){
+  .tabs{
+    top: 7rem;
+    max-width: 100rem;
+
+    .tab-header{
+      max-width: 56rem;
+      margin: auto;
+    }
+
+    .tab-body{
+      .tab-content{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0;
+
+        .tab-img{
+          
+          &:before{
+            height: 20.2rem;
+            width: 30.5rem;    
+          }
+          img{
+            width: auto;
+            height: auto;
+            transform: scale(0.8);
+            bottom: 3.3rem;
+          }
+        }
+
+        h3{
+          padding-top: 0;
+        }
       }
     }
   }
