@@ -290,11 +290,19 @@ header nav .social a i {
 @media (min-width: 1000px) {
   header {
     height: 8rem;
-    width: 90%;
     margin: auto;
+    max-width: 90rem;
   }
   header nav .nav-menu {
-    width: 75%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  header nav .nav-menu li {
+    width: 9rem;
+  }
+  header nav .nav-menu li:last-child a {
+    width: 9rem;
   }
 }
 
@@ -419,6 +427,13 @@ header nav .social a i {
   }
   .hero .hero-text {
     padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    position: relative;
+    top: 0;
   }
 }
 

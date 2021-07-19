@@ -250,3 +250,30 @@ header{
     }
   }
 }
+
+@media (min-width: 1000px){
+  header{
+    height: 8rem;
+    // width: 90%;
+    margin: auto;
+    max-width: 90rem;
+    
+    nav{
+      // width: inherit;
+
+      .nav-menu{
+        justify-content: flex-end;
+
+        li{
+          width: 9rem;
+
+          &:last-child{
+            a{
+              width: 9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
