@@ -434,6 +434,46 @@ header nav .social a i {
   .hero {
     position: relative;
     top: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 60%;
+        grid-template-columns: 40% 60%;
+    -ms-grid-rows: 30rem 10rem;
+        grid-template-rows: 30rem 10rem;
+  }
+  .hero::before {
+    top: 20rem;
+    height: 25rem;
+    width: 40rem;
+  }
+  .hero .hero-image {
+    top: 11rem;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    padding: 0;
+  }
+  .hero .hero-image img {
+    width: 78%;
+    max-width: none;
+    left: 3rem;
+  }
+  .hero .hero-text {
+    margin-left: 3rem;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .hero .hero-text h1 {
+    font-size: 3.5rem;
+  }
+  .hero .hero-text p {
+    width: 40rem;
+  }
+  .hero .btn-wrapper {
+    margin: 0;
+    margin-left: 3rem;
+    position: relative;
   }
 }
 
