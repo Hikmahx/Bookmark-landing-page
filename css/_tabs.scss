@@ -141,7 +141,7 @@
 @media (min-width: 630px){
   .tabs{
     top: 7rem;
-    max-width: 100rem;
+    // max-width: 100rem;
 
     .tab-header{
       max-width: 56rem;
@@ -172,6 +172,36 @@
           padding-top: 0;
         }
       }
+    }
+  }
+}
+
+@media (min-width:750px){
+  .tabs .tab-body .tab-content .tab-img{
+    margin-top: 2rem;
+
+    &::before{
+      height: 22.2rem;
+      width: 35rem;
+    }
+
+    img {
+      transform: scale(0.9);
+    }
+  }
+}
+
+@media (min-width:880px){
+  .tabs .tab-body .tab-content .tab-img{
+    margin-top: 3rem;
+
+    &::before{
+      height: 26rem;
+      width: 40rem;
+    }
+
+    img {
+      transform: scale(1);
     }
   }
 }

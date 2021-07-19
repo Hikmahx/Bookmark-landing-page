@@ -614,7 +614,6 @@ header nav .social a i {
 @media (min-width: 630px) {
   .tabs {
     top: 7rem;
-    max-width: 100rem;
   }
   .tabs .tab-header {
     max-width: 56rem;
@@ -638,6 +637,34 @@ header nav .social a i {
   }
   .tabs .tab-body .tab-content h3 {
     padding-top: 0;
+  }
+}
+
+@media (min-width: 750px) {
+  .tabs .tab-body .tab-content .tab-img {
+    margin-top: 2rem;
+  }
+  .tabs .tab-body .tab-content .tab-img::before {
+    height: 22.2rem;
+    width: 35rem;
+  }
+  .tabs .tab-body .tab-content .tab-img img {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@media (min-width: 880px) {
+  .tabs .tab-body .tab-content .tab-img {
+    margin-top: 3rem;
+  }
+  .tabs .tab-body .tab-content .tab-img::before {
+    height: 26rem;
+    width: 40rem;
+  }
+  .tabs .tab-body .tab-content .tab-img img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
