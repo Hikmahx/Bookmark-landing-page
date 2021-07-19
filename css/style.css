@@ -664,6 +664,12 @@ header nav .social a i {
   letter-spacing: 0.14px;
 }
 
+@media (min-width: 630px) {
+  .downloads {
+    margin-top: 0;
+  }
+}
+
 .faqs {
   margin-top: 2rem;
   padding: 0 2rem;
