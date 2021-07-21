@@ -881,6 +881,37 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1000px) {
+  .downloads {
+    max-width: none;
+    margin-bottom: 3rem;
+  }
+  .downloads p {
+    width: 56rem;
+    margin: auto;
+  }
+  .downloads .cards-option {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .downloads .cards-option .option {
+    width: 33rem;
+    margin: 4rem 2rem;
+  }
+  .downloads .cards-option .option p {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
 .faqs {
   margin-top: 2rem;
   padding: 0 2rem;

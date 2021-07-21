@@ -82,3 +82,35 @@
     margin-top: 0;
   }
 }
+
+@media (min-width: 1000px){
+  .downloads{
+    max-width: none;
+    margin-bottom: 3rem;
+
+    // h2{
+
+    // }
+
+    p{
+      width: 56rem;
+      margin: auto;
+    }
+
+    .cards-option{
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .option{
+        width: 33rem;
+        margin: 4rem 2rem;
+
+        p{
+          width: max-content;
+        }
+      }
+    }
+  }
+}
