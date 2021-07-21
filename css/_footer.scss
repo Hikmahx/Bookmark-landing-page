@@ -176,3 +176,26 @@
     }
   }
 }
+
+@media (min-width:1000px){
+  .footer .lower {
+    width: 100%;
+    .logo{
+      width: 20%;
+    }
+
+    ul{
+      display: flex;
+      margin-top: 0.5rem;
+      width: 30%;
+
+      li{
+        margin: 0 1rem;
+      }
+    }
+
+    .social{
+      width: 50%;
+    }
+  }
+}

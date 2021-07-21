@@ -1228,4 +1228,26 @@ header nav .social a i {
     padding: 0;
   }
 }
+
+@media (min-width: 1000px) {
+  .footer .lower {
+    width: 100%;
+  }
+  .footer .lower .logo {
+    width: 20%;
+  }
+  .footer .lower ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0.5rem;
+    width: 30%;
+  }
+  .footer .lower ul li {
+    margin: 0 1rem;
+  }
+  .footer .lower .social {
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
