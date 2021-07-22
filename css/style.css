@@ -306,6 +306,14 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1200px) {
+  header {
+    max-width: 120rem;
+    width: auto;
+    margin: 0 6.8rem;
+  }
+}
+
 .hero {
   position: absolute;
   top: 12.8rem;
@@ -474,6 +482,18 @@ header nav .social a i {
     margin: 0;
     margin-left: 3rem;
     position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .hero-text {
+    margin-left: 6rem;
+  }
+  .hero .btn-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 10rem;
   }
 }
 

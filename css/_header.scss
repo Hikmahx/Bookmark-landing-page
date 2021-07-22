@@ -277,3 +277,11 @@ header{
     }
   }
 }
+
+@media (min-width:1200px){
+  header{
+    max-width: 120rem;
+    width: auto;
+    margin: 0 6.8rem;
+  }
+}
