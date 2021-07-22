@@ -486,8 +486,20 @@ header nav .social a i {
 }
 
 @media (min-width: 1200px) {
+  .hero::before {
+    height: 29rem;
+    width: 42rem;
+    border-radius: 15rem 0 0 15rem;
+  }
   .hero .hero-text {
     margin-left: 6rem;
+  }
+  .hero .hero-text h1 {
+    font-size: 4rem;
+  }
+  .hero .hero-text p {
+    font-size: 1.65rem;
+    width: 45rem;
   }
   .hero .btn-wrapper {
     -webkit-box-pack: start;

@@ -155,3 +155,30 @@
     }
   }
 }
+
+@media (min-width: 1200px){
+  .hero{
+
+    &::before{
+      height: 29rem;
+      width: 42rem;
+      border-radius: 15rem 0 0 15rem;
+    }
+    .hero-text{
+      margin-left: 6rem;
+
+      h1{
+        font-size: 4rem;
+      }
+
+      p{
+        font-size: 1.65rem;
+        width: 45rem;
+      }
+    }
+    .btn-wrapper{
+      justify-content: flex-start;
+      margin-left: 10rem;
+    }
+  }
+}
