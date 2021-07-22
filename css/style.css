@@ -829,6 +829,30 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1200px) {
+  .tabs {
+    margin: 7rem 0 5rem;
+  }
+  .tabs h2 {
+    font-size: 2.8rem;
+  }
+  .tabs p {
+    font-size: 1.8rem;
+    max-width: 61rem;
+  }
+  .tabs .tab-body .tab-content .tab-img::before {
+    height: 29rem;
+    width: 42rem;
+  }
+  .tabs .tab-body .tab-content h3 {
+    font-size: 2.7rem;
+  }
+  .tabs .tab-body .tab-content p {
+    font-size: 1.8rem;
+    width: 45rem;
+  }
+}
+
 .downloads {
   position: relative;
   text-align: center;
