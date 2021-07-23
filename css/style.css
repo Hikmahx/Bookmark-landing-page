@@ -968,6 +968,50 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1200px) {
+  .downloads h2 {
+    font-size: 2.8rem;
+  }
+  .downloads p {
+    font-size: 1.8rem;
+    width: 65rem;
+  }
+  .downloads .cards-option .option {
+    margin: 4rem 1.5rem;
+    width: 22.7rem;
+    height: 31rem;
+  }
+  .downloads .cards-option .option .extension-img {
+    margin-bottom: 2rem;
+  }
+  .downloads .cards-option .option .extension-img img {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  .downloads .cards-option .option p {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    padding: 0;
+    width: 100%;
+  }
+  .downloads .cards-option .option p::before {
+    top: 3rem;
+    left: -4.45rem;
+    -webkit-transform: scaleX(0.81);
+            transform: scaleX(0.81);
+  }
+  .downloads .cards-option .option:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .downloads .cards-option .option:nth-child(3) {
+    margin-top: 10rem;
+  }
+  .downloads .cards-option .option button {
+    margin-top: 3rem;
+    height: 4rem;
+  }
+}
+
 .faqs {
   margin-top: 2rem;
   padding: 0 2rem;

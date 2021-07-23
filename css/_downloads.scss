@@ -114,3 +114,59 @@
     }
   }
 }
+
+@media (min-width: 1200px){
+  .downloads{
+    h2{
+      font-size: 2.8rem;
+    }
+
+    p{
+      font-size: 1.8rem;
+      width: 65rem;
+    }
+    .cards-option{
+      .option{
+        margin: 4rem 1.5rem;
+        width: 22.7rem;
+        height: 31rem;
+
+        .extension-img{
+          margin-bottom: 2rem;
+
+          img{
+            width: 8.5rem;
+            height: 8.5rem;
+            // transform: scale(0.8);
+          }
+        }
+
+        p{
+          margin-bottom: 1rem;
+          font-size: 1.4rem;
+          padding: 0;
+          width: 100%;
+
+          &::before{
+            top: 3rem;
+            left: -4.45rem;
+            transform: scaleX(0.81);
+          }
+        }
+
+        &:nth-child(2){
+          margin-top: 7rem;
+        }
+
+        &:nth-child(3){
+          margin-top: 10rem;
+        }
+        
+        button{
+          margin-top: 3rem;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}
