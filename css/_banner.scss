@@ -182,3 +182,50 @@
     }
   }
 }
+
+@media (min-width:1400px){
+  .hero{
+
+    &::before{
+      top: 16.6rem;
+      height: 35rem;
+      width: 52rem;
+      border-radius: 20rem 0 0 21.2rem;
+    }
+
+    .hero-image{
+      top: 10.5rem;
+
+      img{
+        width: 76%;
+        left: 5rem;
+      }
+    }
+
+    .hero-text{
+      margin-left: 12.4rem;
+      margin-top: 8rem;
+
+      h1{
+        font-size: 4.8rem;
+        line-height: 5.3rem;
+      }
+
+      p{
+        width: 51rem;
+        font-size: 1.8rem;
+        margin: 2.3rem 0;
+        line-height: 2.8rem;
+      }
+    }
+
+    .btn-wrapper{
+      margin-left: 16.5rem;
+      margin-top: 4rem;
+      
+      button{
+        width: 16.5rem;
+      }
+    }
+  }
+}

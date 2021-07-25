@@ -533,6 +533,43 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1400px) {
+  .hero::before {
+    top: 16.6rem;
+    height: 35rem;
+    width: 52rem;
+    border-radius: 20rem 0 0 21.2rem;
+  }
+  .hero .hero-image {
+    top: 10.5rem;
+  }
+  .hero .hero-image img {
+    width: 76%;
+    left: 5rem;
+  }
+  .hero .hero-text {
+    margin-left: 12.4rem;
+    margin-top: 8rem;
+  }
+  .hero .hero-text h1 {
+    font-size: 4.8rem;
+    line-height: 5.3rem;
+  }
+  .hero .hero-text p {
+    width: 51rem;
+    font-size: 1.8rem;
+    margin: 2.3rem 0;
+    line-height: 2.8rem;
+  }
+  .hero .btn-wrapper {
+    margin-left: 16.5rem;
+    margin-top: 4rem;
+  }
+  .hero .btn-wrapper button {
+    width: 16.5rem;
+  }
+}
+
 .tabs {
   position: relative;
   top: 20rem;
