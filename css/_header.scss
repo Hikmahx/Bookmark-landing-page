@@ -285,3 +285,40 @@ header{
     margin: 0 6.8rem;
   }
 }
+
+@media (min-width:1400px){
+  header{
+    margin: 1.6rem 13.2rem 7.5rem 13.9rem;
+
+    // a{}
+
+    nav{
+      .nav-menu{
+        // justify-content: center;
+        // margin-left: 2rem;
+        // margin-right: 1.8rem;
+        top: -1.5rem;
+
+        li{
+          margin-right: 2.5rem;
+
+          a{
+            font-size: 1.3rem;
+          }
+
+          &:last-child{
+            margin-right: 2rem;
+            text-align: center;
+
+            a{
+              // padding: 1.5rem;
+              height: 4rem;
+              margin-top: 0.3rem;
+              width: 11rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

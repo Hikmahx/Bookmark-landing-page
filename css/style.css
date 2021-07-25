@@ -314,6 +314,30 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1400px) {
+  header {
+    margin: 1.6rem 13.2rem 7.5rem 13.9rem;
+  }
+  header nav .nav-menu {
+    top: -1.5rem;
+  }
+  header nav .nav-menu li {
+    margin-right: 2.5rem;
+  }
+  header nav .nav-menu li a {
+    font-size: 1.3rem;
+  }
+  header nav .nav-menu li:last-child {
+    margin-right: 2rem;
+    text-align: center;
+  }
+  header nav .nav-menu li:last-child a {
+    height: 4rem;
+    margin-top: 0.3rem;
+    width: 11rem;
+  }
+}
+
 .hero {
   position: absolute;
   top: 12.8rem;
