@@ -336,3 +336,73 @@
     }
   }
 }
+
+@media (min-width:1400px){
+  .tabs{
+    margin: 13.4rem 0;
+
+    h2{
+      font-size: 3.3rem;
+      letter-spacing: -0.4px;
+      margin-bottom: 2.3rem;
+    }
+
+    p{
+      font-size: 1.8rem;
+      line-height: 2.83rem;
+    }
+
+    .tab-header{
+      max-width: 73rem;
+      margin-top: 5rem;
+
+      .tablink{
+        padding-bottom: 3rem;
+
+        &:not(:last-child){
+          // margin-right: 3rem;
+        }
+      }
+    }
+
+    .tab-body{
+      .tab-content{
+        gap: 3.6rem 11rem;
+
+        .tab-img{
+          
+          img{
+            max-width: none;
+            max-height: none;
+            margin-top: 1.4rem;
+            left: 15.6rem;            
+          }          
+
+          &::before{
+            top: 7.6rem;
+            width: 64rem;
+            height: 35.2rem;
+            border-radius: 0 21.2rem 21.2rem 0;
+          }
+        }
+
+        h3{
+          font-size: 3.3rem;
+          letter-spacing: -0.6px;
+          // margin-top: 3rem;
+        }
+
+        p{
+          // margin-top: 3rem;
+          position: relative;
+          top: -2.3rem;
+          line-height: 2.7rem;
+        }
+
+        button{
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}

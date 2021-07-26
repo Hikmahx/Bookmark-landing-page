@@ -914,6 +914,55 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1400px) {
+  .tabs {
+    margin: 13.4rem 0;
+  }
+  .tabs h2 {
+    font-size: 3.3rem;
+    letter-spacing: -0.4px;
+    margin-bottom: 2.3rem;
+  }
+  .tabs p {
+    font-size: 1.8rem;
+    line-height: 2.83rem;
+  }
+  .tabs .tab-header {
+    max-width: 73rem;
+    margin-top: 5rem;
+  }
+  .tabs .tab-header .tablink {
+    padding-bottom: 3rem;
+  }
+  .tabs .tab-body .tab-content {
+    gap: 3.6rem 11rem;
+  }
+  .tabs .tab-body .tab-content .tab-img img {
+    max-width: none;
+    max-height: none;
+    margin-top: 1.4rem;
+    left: 15.6rem;
+  }
+  .tabs .tab-body .tab-content .tab-img::before {
+    top: 7.6rem;
+    width: 64rem;
+    height: 35.2rem;
+    border-radius: 0 21.2rem 21.2rem 0;
+  }
+  .tabs .tab-body .tab-content h3 {
+    font-size: 3.3rem;
+    letter-spacing: -0.6px;
+  }
+  .tabs .tab-body .tab-content p {
+    position: relative;
+    top: -2.3rem;
+    line-height: 2.7rem;
+  }
+  .tabs .tab-body .tab-content button {
+    margin-top: 0.5rem;
+  }
+}
+
 .downloads {
   position: relative;
   text-align: center;
