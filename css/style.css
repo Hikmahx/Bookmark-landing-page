@@ -649,6 +649,13 @@ header nav .social a i {
   position: relative;
 }
 
+.tabs .tab-header .tablink:hover {
+  cursor: pointer;
+  color: #fa5757;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 .tabs .tab-header .tablink::before {
   content: '';
   position: absolute;
