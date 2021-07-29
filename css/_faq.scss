@@ -129,3 +129,49 @@
     }
   }
 }
+
+@media (min-width:1400px){
+  .faqs{
+
+    h2{
+      font-size: 3.1rem;
+      margin-bottom: 2.4rem;
+    }
+
+    p{
+      max-width: 55rem;
+      font-size: 1.4rem;
+      line-height: 2.7rem;
+      margin-bottom: 4.5rem;
+    }
+
+    .accordion{
+      .menu{
+        .item{
+          height: 6.8rem;
+          font-weight: 500;
+          font-size: 1.8rem;
+
+          .question{
+            // padding: 2.5rem 0;
+            height: 6.8rem;
+            letter-spacing: -0.5px;
+          }
+          &:first-child{
+          .question{
+              border-top: 0.1rem solid #dfdfdf;
+            }
+          }
+
+          .answer{
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    button{
+      margin-top: 4rem;
+    }
+  }
+}

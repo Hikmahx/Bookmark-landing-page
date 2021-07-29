@@ -1122,6 +1122,57 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 1400px) {
+  .downloads {
+    margin-top: 23.24rem;
+    margin-bottom: 12rem;
+  }
+  .downloads h2 {
+    font-size: 3.28rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.5px;
+  }
+  .downloads p {
+    line-height: 2.6rem;
+  }
+  .downloads .cards-option .option {
+    margin: 4rem 1.82rem;
+    width: 27.8rem;
+    height: 38rem;
+  }
+  .downloads .cards-option .option .extension-img {
+    padding-top: 1rem;
+  }
+  .downloads .cards-option .option .extension-img img {
+    width: 10.2rem;
+    height: 10.2rem;
+  }
+  .downloads .cards-option .option h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.85rem;
+    font-size: 2.1rem;
+  }
+  .downloads .cards-option .option p {
+    font-size: 1.5rem;
+  }
+  .downloads .cards-option .option p::before {
+    top: 4.5rem;
+    left: -2.45rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .downloads .cards-option .option:nth-child(2) {
+    margin-top: 8rem;
+  }
+  .downloads .cards-option .option:nth-child(3) {
+    margin-top: 12rem;
+  }
+  .downloads .cards-option .option button {
+    margin-top: 5rem;
+    height: 4.8rem;
+  }
+}
+
 .faqs {
   margin-top: 2rem;
   padding: 0 2rem;
@@ -1240,6 +1291,37 @@ header nav .social a i {
   }
   .faqs .accordion .menu .item:target:nth-child(2):target {
     height: 30rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .faqs h2 {
+    font-size: 3.1rem;
+    margin-bottom: 2.4rem;
+  }
+  .faqs p {
+    max-width: 55rem;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    margin-bottom: 4.5rem;
+  }
+  .faqs .accordion .menu .item {
+    height: 6.8rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  .faqs .accordion .menu .item .question {
+    height: 6.8rem;
+    letter-spacing: -0.5px;
+  }
+  .faqs .accordion .menu .item:first-child .question {
+    border-top: 0.1rem solid #dfdfdf;
+  }
+  .faqs .accordion .menu .item .answer {
+    font-weight: 400;
+  }
+  .faqs button {
+    margin-top: 4rem;
   }
 }
 
