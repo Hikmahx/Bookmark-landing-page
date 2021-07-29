@@ -1274,6 +1274,12 @@ header nav .social a i {
   border-bottom: 0.1rem solid #dfdfdf;
 }
 
+.faqs .accordion .menu .item .question:hover {
+  color: #fa5757;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
 .faqs .accordion .menu .item .question svg {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
