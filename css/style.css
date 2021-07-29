@@ -176,6 +176,12 @@ header nav .nav-menu li a {
   padding-right: 1.2rem;
 }
 
+header nav .nav-menu li a:hover, header nav .nav-menu li a:focus {
+  color: #fa5757;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 header nav .nav-menu li:last-child a {
   border: 0.2rem solid #fff;
   border-radius: 0.5rem;
@@ -190,6 +196,12 @@ header nav .nav-menu li:last-child a {
   height: 4.8rem;
   font-weight: 500;
   width: 100%;
+}
+
+header nav .nav-menu li:last-child a:hover, header nav .nav-menu li:last-child a:focus {
+  background: transparent;
+  border: 0.2rem solid #fa5757;
+  color: #fa5757;
 }
 
 header nav .social {

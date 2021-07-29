@@ -138,6 +138,12 @@ header{
           width: fit-content;
           margin: 0.1rem auto 0;
           padding-right: 1.2rem;
+
+          &:hover, &:focus{
+            color: $soft-red;
+            transition: 0.2s ease-in-out;
+          }
+
         }
 
         &:last-child{
@@ -151,6 +157,12 @@ header{
             height: 4.8rem;
             font-weight: 500;
             width: 100%;
+
+            &:hover, &:focus{
+              background: transparent;
+              border: 0.2rem solid $soft-red;
+              color: $soft-red;
+            }
           }
         }
 
