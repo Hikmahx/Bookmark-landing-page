@@ -29,6 +29,21 @@
     .input{
       height: 4.8rem;        
       margin-bottom: 1.6rem;
+      position: relative;
+      
+      &:before{
+        content: '';
+        background-color: $soft-red;
+        border-radius: 0.5rem;
+        height: 3rem;
+        position: absolute;
+      }
+      
+      &.err{
+        &:before{
+          height: 6rem;
+        }
+      }
 
 
       input{
@@ -65,8 +80,8 @@
       .error{
         display: none;
         position: absolute;
-        bottom: 0.8rem;
-        left: 1rem;
+        // bottom: 0.8rem;
+        // left: 1rem;
         font-style: italic;
       }
 
