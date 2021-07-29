@@ -199,3 +199,81 @@
     }
   }
 }
+
+@media (min-width: 1400px){
+  .footer{
+    margin-top: 15.27rem;
+    padding-top: 7.1rem;
+
+    h2{
+      font-size: 1rem;
+      letter-spacing: 0.45rem;
+      margin-bottom: 3rem;
+    }
+
+    p{
+      font-size: 2.9rem;
+      max-width: 49rem;
+      line-height: 3.9rem;
+      letter-spacing: 1.5px;
+      padding-top: 0.5rem;
+      padding-bottom: 3.6rem;
+    }
+    
+    form{
+      padding-bottom: 1.5rem;
+      width: 35%;
+
+      .input{
+        margin-right: 1.4rem;
+
+        input{
+          width: 98%;
+        }
+      }
+
+    button{
+      width: 29%;
+    }
+    }
+
+    .lower{
+      height: 8.9rem;
+      padding: 0 14.5rem;
+      align-items: center;
+      justify-content: space-around;
+
+      .logo{
+        display: flex;
+        justify-content: flex-start;
+        width: 18%;
+        svg{
+          margin: 0 0 0 2rem;
+        }
+      }
+
+      // .logo, ul, .social{
+      //   width: 33%;
+      // }
+
+      ul{
+        width: 32%;
+        margin: 0;
+
+        li{
+          margin: 0 1.45rem;
+          a{
+            font-size: 1.28rem;
+          }
+        }
+      }
+
+      .social{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+
+}

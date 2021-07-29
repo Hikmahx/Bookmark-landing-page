@@ -1542,4 +1542,77 @@ header nav .social a i {
     width: 50%;
   }
 }
+
+@media (min-width: 1400px) {
+  .footer {
+    margin-top: 15.27rem;
+    padding-top: 7.1rem;
+  }
+  .footer h2 {
+    font-size: 1rem;
+    letter-spacing: 0.45rem;
+    margin-bottom: 3rem;
+  }
+  .footer p {
+    font-size: 2.9rem;
+    max-width: 49rem;
+    line-height: 3.9rem;
+    letter-spacing: 1.5px;
+    padding-top: 0.5rem;
+    padding-bottom: 3.6rem;
+  }
+  .footer form {
+    padding-bottom: 1.5rem;
+    width: 35%;
+  }
+  .footer form .input {
+    margin-right: 1.4rem;
+  }
+  .footer form .input input {
+    width: 98%;
+  }
+  .footer form button {
+    width: 29%;
+  }
+  .footer .lower {
+    height: 8.9rem;
+    padding: 0 14.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .lower .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 18%;
+  }
+  .footer .lower .logo svg {
+    margin: 0 0 0 2rem;
+  }
+  .footer .lower ul {
+    width: 32%;
+    margin: 0;
+  }
+  .footer .lower ul li {
+    margin: 0 1.45rem;
+  }
+  .footer .lower ul li a {
+    font-size: 1.28rem;
+  }
+  .footer .lower .social {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
 /*# sourceMappingURL=style.css.map */
