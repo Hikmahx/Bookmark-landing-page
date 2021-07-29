@@ -1077,6 +1077,15 @@ header nav .social a i {
   letter-spacing: 0.14px;
 }
 
+.downloads .cards-option .option button:hover, .downloads .cards-option .option button:focus {
+  cursor: pointer;
+  background: transparent;
+  border: 0.2rem solid #5368df;
+  color: #5368df;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 @media (min-width: 630px) {
   .downloads {
     margin-top: 0;
