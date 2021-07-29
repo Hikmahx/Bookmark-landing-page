@@ -69,11 +69,26 @@
     .blue{
       background: $soft-blue;
       color: #fff;
+
+      &:hover, &:focus{
+        background: transparent;
+        border: 0.2rem solid $soft-blue;
+        color: $soft-blue;
+        transition: 0.2s ease-in-out;
+      }
     }
     .gray{
       margin-left: 1.3rem;
       color: $very-dark-blue;
       background: #f7f7f7;
+
+      &:hover, &:focus{
+        cursor: pointer;
+        background: transparent;
+        border: 0.2rem solid $very-dark-blue;
+        color: $very-dark-blue;
+        transition: 0.2s ease-in-out;
+      }
     }
   }
 }

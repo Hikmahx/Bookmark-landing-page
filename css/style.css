@@ -437,10 +437,27 @@ header nav .social a i {
   color: #fff;
 }
 
+.hero .btn-wrapper .blue:hover, .hero .btn-wrapper .blue:focus {
+  background: transparent;
+  border: 0.2rem solid #5368df;
+  color: #5368df;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 .hero .btn-wrapper .gray {
   margin-left: 1.3rem;
   color: #252b46;
   background: #f7f7f7;
+}
+
+.hero .btn-wrapper .gray:hover, .hero .btn-wrapper .gray:focus {
+  cursor: pointer;
+  background: transparent;
+  border: 0.2rem solid #252b46;
+  color: #252b46;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 630px) {
