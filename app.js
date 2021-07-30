@@ -30,3 +30,33 @@ for (let number = 0; number < tabLinks.length; number++) {
       tabContent[number].classList.add('active');
   })
 }
+
+// EMAIL VALIDATION EVENT
+const form = document.querySelector('form');
+const submitBtn = document.querySelector('form button');
+const email = document.getElementById('email');
+const input = document.querySelector('.input');
+const error = document.querySelector('.error');
+
+form.addEventListener('submit', validateEmail);
+
+function validateEmail(e){
+  const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+  
+  if(!re.test(email.value)){
+    e.target.parentElement.style.position = 'relative';
+    error.style.display = 'block';
+    input.classList.add('err');
+
+    setTimeout( clearText, 2000);
+  } else{
+   form.submit(); 
+  }
+
+  e.preventDefault();
+}
+
+function clearText(){
+  input.classList.remove('err');
+  error.style.display = 'none';
+}
