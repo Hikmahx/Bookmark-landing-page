@@ -43,6 +43,14 @@
         &:before{
           height: 6rem;
         }
+
+        &:after{
+          content: url(../images/icon-error.svg);
+          z-index: 1;
+          position: absolute;
+          top: 1.7rem;
+          right: 1rem;
+        }
       }
 
 
@@ -53,6 +61,7 @@
         border-radius: 0.5rem;
         font-family: 'Rubik', sans-serif;
         padding-left: 2rem;
+        position: relative;
 
         &::placeholder{
           color: #d5d5d7;

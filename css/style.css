@@ -1423,6 +1423,14 @@ header nav .social a i {
   height: 6rem;
 }
 
+.footer form .input.err:after {
+  content: url(../images/icon-error.svg);
+  z-index: 1;
+  position: absolute;
+  top: 1.7rem;
+  right: 1rem;
+}
+
 .footer form .input input {
   height: 4.8rem;
   width: 100%;
@@ -1430,6 +1438,7 @@ header nav .social a i {
   border-radius: 0.5rem;
   font-family: 'Rubik', sans-serif;
   padding-left: 2rem;
+  position: relative;
 }
 
 .footer form .input input::-webkit-input-placeholder {
