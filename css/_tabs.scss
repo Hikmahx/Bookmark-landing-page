@@ -34,18 +34,15 @@
       opacity: 0.4;
       margin: auto;
       width: 82%;
-      // width: 22rem;
       background: $grayish-blue;
     }
 
     .tablink{
       font-size: 1.7rem;
       color: #66676c;
-      // padding: 1.92rem 0;
       padding: 1.9rem 0 1.94rem;
       margin: auto;
       width: 82%;
-      // height: 6.6rem;
       position: relative;
 
       &:hover{
@@ -147,7 +144,6 @@
 @media (min-width: 630px){
   .tabs{
     top: 7rem;
-    // max-width: 100rem;
 
     .tab-header{
       max-width: 56rem;
@@ -229,7 +225,6 @@
 
           &:after{
             width: 100%;
-            // transition:  2s ease-in;
             animation: SlideIn 0.5s  alternate forwards;
           }
         }
@@ -364,10 +359,6 @@
 
       .tablink{
         padding-bottom: 3rem;
-
-        &:not(:last-child){
-          // margin-right: 3rem;
-        }
       }
     }
 
@@ -395,11 +386,9 @@
         h3{
           font-size: 3.3rem;
           letter-spacing: -0.6px;
-          // margin-top: 3rem;
         }
 
         p{
-          // margin-top: 3rem;
           position: relative;
           top: -2.3rem;
           line-height: 2.7rem;

@@ -5,7 +5,6 @@
   text-align: center;
   padding-top: 7.15rem;
   position: relative;
-  // height: 100vh;
 
   h2{
     font-size: 1.32rem;
@@ -90,8 +89,6 @@
       .error{
         display: none;
         position: absolute;
-        // bottom: 0.8rem;
-        // left: 1rem;
         font-style: italic;
       }
 
@@ -121,8 +118,6 @@
   .lower{
     background: $very-dark-blue;
     padding-top: 4rem;
-
-    // height: 58.6vh;
     overflow: hidden;
 
     .logo{
@@ -294,10 +289,6 @@
           margin: 0 0 0 2rem;
         }
       }
-
-      // .logo, ul, .social{
-      //   width: 33%;
-      // }
 
       ul{
         width: 32%;
