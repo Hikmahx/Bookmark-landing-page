@@ -37,6 +37,7 @@ header.open {
   right: 0rem;
   overflow: scroll;
   z-index: 1000;
+  height: 110vh;
 }
 
 header.open svg g g circle, header.open svg g path {
@@ -1182,7 +1183,7 @@ header nav .social a i {
   }
   .downloads .cards-option .option {
     margin: 4rem 1.82rem;
-    width: 27.8rem;
+    width: 28rem;
     height: 38rem;
   }
   .downloads .cards-option .option .extension-img {
