@@ -82,6 +82,21 @@
   }
 }
 
+@media(max-width:364px){
+  .downloads .cards-option .option{
+    
+    button {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media(max-width:374px){
+  .downloads .cards-option .option{
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 630px){
   .downloads{
     margin-top: 0;
