@@ -140,6 +140,12 @@
     }
   }
 }
+@media(min-width:400px){
+  .tabs .tab-body .tab-content .tab-img img {
+    width: 73.5%;
+    height: 29.1rem;
+  }
+}
 
 @media (min-width: 630px){
   .tabs{
