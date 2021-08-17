@@ -1291,29 +1291,29 @@ header nav .social a i {
   line-height: 3rem;
 }
 
-.faqs .accordion .menu .item:target {
+.faqs .accordion .menu .item.active {
   height: 28rem;
   border-bottom: 0.1rem solid #dfdfdf;
 }
 
-.faqs .accordion .menu .item:target:last-child {
+.faqs .accordion .menu .item.active:last-child {
   border: none;
 }
 
-.faqs .accordion .menu .item:target .question {
+.faqs .accordion .menu .item.active .question {
   border-bottom: transparent;
 }
 
-.faqs .accordion .menu .item:target .question svg {
+.faqs .accordion .menu .item.active .question svg {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.faqs .accordion .menu .item:target .question svg path {
+.faqs .accordion .menu .item.active .question svg path {
   stroke: red;
 }
 
-.faqs .accordion .menu .item:target:nth-child(2):target {
+.faqs .accordion .menu .item.active:nth-child(2).active {
   height: 37rem;
 }
 
@@ -1337,10 +1337,10 @@ header nav .social a i {
     max-width: 55rem;
     margin: 2rem auto auto;
   }
-  .faqs .accordion .menu .item:target {
+  .faqs .accordion .menu .item.active {
     height: 25rem;
   }
-  .faqs .accordion .menu .item:target:nth-child(2):target {
+  .faqs .accordion .menu .item.active:nth-child(2).active {
     height: 30rem;
   }
 }

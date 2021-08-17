@@ -58,7 +58,7 @@
           line-height: 3rem;
         }
 
-        &:target{
+        &.active{
           
           height: 28rem;
           border-bottom: 0.1rem solid #dfdfdf;
@@ -80,7 +80,7 @@
           }
 
           &:nth-child(2){
-            &:target{
+            &.active{
               height: 37rem;
             }
           }
@@ -113,11 +113,11 @@
       max-width: 55rem;
       margin: 2rem auto auto;
       .menu .item{
-        &:target{
+        &.active{
         height: 25rem;
 
         &:nth-child(2){
-          &:target{
+          &.active{
             height: 30rem;
           }
           }
