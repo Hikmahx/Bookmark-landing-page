@@ -1357,13 +1357,11 @@ header nav .social a i {
     margin-bottom: 4.5rem;
   }
   .faqs .accordion .menu .item {
-    height: 6.8rem;
-    font-weight: 500;
+    height: 6.65rem;
     font-size: 1.8rem;
   }
   .faqs .accordion .menu .item .question {
-    height: 6.8rem;
-    letter-spacing: -0.5px;
+    height: 6.65rem;
   }
   .faqs .accordion .menu .item:first-child .question {
     border-top: 0.1rem solid #dfdfdf;
@@ -1372,7 +1370,7 @@ header nav .social a i {
     font-weight: 400;
   }
   .faqs button {
-    margin-top: 4rem;
+    margin-top: 4.4rem;
   }
 }
 
@@ -1638,8 +1636,8 @@ header nav .social a i {
 
 @media (min-width: 1400px) {
   .footer {
-    margin-top: 15.27rem;
-    padding-top: 7.1rem;
+    margin-top: 15rem;
+    padding-top: 7.25rem;
   }
   .footer h2 {
     font-size: 1rem;

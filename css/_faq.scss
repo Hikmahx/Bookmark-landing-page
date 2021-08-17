@@ -84,8 +84,6 @@
               height: 37rem;
             }
           }
-          .answer{
-          }
         }
       }
     }
@@ -145,13 +143,16 @@
     .accordion{
       .menu{
         .item{
-          height: 6.8rem;
-          font-weight: 500;
+          // height: 6.8rem;
+          height: 6.65rem;
+
           font-size: 1.8rem;
 
           .question{
-            height: 6.8rem;
-            letter-spacing: -0.5px;
+            // height: 6.8rem;
+            height: 6.65rem;
+
+            // letter-spacing: -0.5px;
           }
           &:first-child{
           .question{
@@ -167,7 +168,7 @@
     }
 
     button{
-      margin-top: 4rem;
+      margin-top: 4.4rem;
     }
   }
 }
