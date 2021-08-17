@@ -60,3 +60,12 @@ function clearText(){
   input.classList.remove('err');
   error.style.display = 'none';
 }
+
+//ACCORDION EVENT
+let panelBtns = document.querySelectorAll('.item');
+
+panelBtns.forEach(btn=>{
+  btn.addEventListener('click', ()=>{    
+    btn.classList.toggle('active');
+  })
+})
