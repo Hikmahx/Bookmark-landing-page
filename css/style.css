@@ -1060,6 +1060,9 @@ header nav .social a i {
   position: absolute;
   top: 4.5rem;
   left: -2.4rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   right: 0;
 }
 
@@ -1099,6 +1102,12 @@ header nav .social a i {
   }
 }
 
+@media (min-width: 400px) {
+  .downloads .cards-option .option p::before {
+    left: -1.2rem;
+  }
+}
+
 @media (min-width: 630px) {
   .downloads {
     margin-top: 0;
@@ -1128,11 +1137,15 @@ header nav .social a i {
   .downloads .cards-option .option {
     width: 33rem;
     margin: 4rem 2rem;
+    overflow: hidden;
   }
   .downloads .cards-option .option p {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+  .downloads .cards-option .option p::before {
+    left: -2.4rem;
   }
 }
 
